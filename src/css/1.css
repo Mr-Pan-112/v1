@@ -1,0 +1,19 @@
+li{
+    list-style: none;
+}
+/* 伪元素::placeholder*/
+::placeholder{
+    color: red;
+}
+input{
+    width: 50%;
+    height: 50px;
+}
+#box{
+    width: 580px;
+    height: 340px;
+    background-color:rgb(150, 150, 150);
+    
+    background-image:url('../images/2.jpg');
+
+}

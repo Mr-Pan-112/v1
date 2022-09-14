@@ -1,0 +1,17 @@
+重新安装node.js时需要重新加载
+npm install webpack webpack-dev-server webpack-cli --save-dev
+
+版本不匹配的问题：
+// 首先卸载不适配的 webpack webpack-cli webpack-dev-serve 这三个工具
+   cnpm uninstall --save-dev webpack-cli 
+// 此处的 webpack-cli 可以修改为webpack 或者 webpack-dev-serve 
+
+// 然后，重新下载匹配版本号的webpack webpack-cli webpack-dev-serve
+   cnpm install --save-dev webpack-dev-server@3.3.5
+// 此处的 webpack-dev-serve@3.3.5 可以修改成 webpack 或 webpack-cli 对应的版本号
+////
+npm uninstall webpack-dev-server
+npm install webpack-dev-server@3.11.2 -D
+npm run dev
+//github ssh地址
+git@github.com:Mr-Pan-112/Mr-Pan-112.git
